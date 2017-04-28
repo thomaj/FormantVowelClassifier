@@ -1,5 +1,10 @@
 # FormantVowelClassifier
 
+Classifies a formant (bands of sound energy) to the vowel sound that created it.  Overall,
+there are 10 vowel sound classes.  The formants are points in 2-dimensional space,
+so 2-dimensional gaussians are used.  It is assumed, for simplicity, that the models have
+diagonal covariance.
+
 ## Files
   SimpleClassifier.py
   EMClassifier.py
